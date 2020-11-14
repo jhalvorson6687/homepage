@@ -39,7 +39,7 @@ class About extends Component {
                   <div class="row paragraph">
                     <Fade>
                       Hi! My name is Jacob Halvorson. I am a Computer Engineering
-                      student at the Univeristy of California, Riverside. I am expected to graduated from UCR in December 2020, and 
+                      student at the Univeristy of California, Riverside (UCR). I am expected to graduated from UCR in December 2020, and 
                       currently searching for software engineering positions.
                       
                     </Fade>
@@ -57,7 +57,7 @@ class About extends Component {
                   </div>
                   <div class="row paragraph">
                     <Fade>
-                      I am particularly interested in IoT and embedded software development. I enjoy working with microcontrollers
+                      I am particularly interested in Internet of Things (IoT) and embedded software development. I enjoy working with microcontrollers
                       and other hardware to build cool and useful devices, or blinky boys as I like to say. I have worked on multiple embedded systems projects using
                       C/C++ and Python where I utilized tools such as Flask, AWS, RESTful APIs, and Travis CI. I am also interested in web and mobile application development. I have worked on two websites now where I gained 
                       experience in React JS, jQuery, and Bootstrap.
