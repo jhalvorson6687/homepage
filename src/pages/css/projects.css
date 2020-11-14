@@ -1,0 +1,184 @@
+@font-face {
+  font-family: "circular-std-book";
+  src: url("../../fonts/CircularStd-Book.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "circular-std-med";
+  src: url("../../fonts/CircularStd-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "circular-std-bold";
+  src: url("../../fonts/CircularStd-Bold.otf") format("opentype");
+}
+
+#projects-title {
+  height: 50%;
+  padding-top: 15%;
+  padding-bottom: 15%;
+  font-family: "circular-std-bold";
+  font-size: 70px;
+  color: #d17a22;
+  background-color: #39393a;
+}
+
+#projects-main {
+  padding-top: 3%;
+  padding-left: 6%;
+  padding-right: 6%;
+  padding-bottom: 3%;
+  background-color: #e6e6e6;
+}
+
+.button-dark-orange {
+  width: 213px;
+  height: 56px;
+  border: 4px solid #d17a22;
+  box-sizing: border-box;
+  border-radius: 50px;
+  text-align: center;
+  font-family: "circular-std-bold";
+  font-size: 25px;
+  color: #d17a22 !important;
+  padding-block-start: 2%;
+  transition: box-shadow 0.3s;
+}
+
+.scroll-button-proj {
+  margin-top: 10%;
+  margin-bottom: 0%;
+}
+
+.button-dark-orange:hover {
+  box-shadow: 0 0 30px rgba(33, 33, 33, 0.2);
+  background-color: #e6e6e6;
+  cursor: pointer;
+}
+
+.projects-box {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.spacing-default {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.proj-title {
+  font-family: "circular-std-bold";
+  font-size: 50px;
+  color: #d17a22;
+}
+
+.proj-date {
+  font-family: "circular-std-bold";
+  font-size: 30px;
+  color: #e59500;
+}
+
+.proj-brief {
+  font-family: "circular-std-book";
+  font-size: 17px;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 1%;
+  margin-bottom: 10%;
+  text-align: center;
+  color: #39393a;
+}
+
+.btn-dark {
+  width: 200px;
+  height: 50px;
+  border-radius: 50px;
+  background: #d17a22 !important;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-right: 2%;
+  margin-left: 2%;
+  text-align: center;
+  padding: 1.5% 0;
+  transition: all 0.2s ease 0s;
+}
+
+.btn-dark:hover {
+  cursor: pointer;
+  background: #e59500 !important;
+}
+
+.btn-dark-txt {
+  font-family: "circular-std-bold";
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.btn-light {
+  width: 200px;
+  height: 50px;
+  border: 4px solid #e59500 !important;
+  background-color: #ffffff !important;
+  color: #e59500 !important;
+  box-sizing: border-box;
+  border-radius: 50px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-right: 2%;
+  margin-left: 2%;
+  text-align: center;
+  font-family: "circular-std-bold";
+  font-size: 20px;
+  transition: all 0.2s ease 0s;
+}
+
+.btn-light:hover {
+  cursor: pointer;
+  border: 4px solid #d17a22 !important;
+  color: #d17a22 !important;
+}
+
+.my-modal .modal-content {
+  background-color: #39393a;
+}
+
+.modal-title {
+  font-family: "circular-std-med";
+  font-size: 35px;
+  color: #e6e6e6;
+}
+
+.modal-body {
+  font-family: "circular-std-med";
+  color: #e6e6e6;
+  padding-top: 2%;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-bottom: 2%;
+}
+
+.modal-btn {
+  font-family: "circular-std-med";
+  color: #e6e6e6;
+}
+
+.tools-img {
+  width: 10%;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+
+.proj-img-center {
+  padding-top: 8%;
+}
+
+.proj-img {
+  width: 80%;
+  border-radius: 15px;
+}

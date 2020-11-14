@@ -1,0 +1,52 @@
+{
+  "Projects": [
+    {
+      "title": "Homepage",
+      "date": "Nov 2020 - Present",
+      "descriptionbrief": "What you're looking at right now: my personal website!",
+      "descriptionmain1": "I'm excited to say that I have finally built my own personal website! What better way to showcase yourself as a software engineer than on a website you made from scratch? I did this to not only display my projects and skills, but also learn and practice web application development. React is a powerful tool for creating clean and interactive UI. I chose my own theme for the website and designed all of the artwork with Figma.",
+      "descriptionmain2": "I constructed this website using React.js and Bootstrap. It was deployed through Github Pages. One cool thing I learned how to do was have my website dynamically render project elements based on data in a JSON file. Now if I finish any new projects I can simply add it to the JSON file and the website will automatically add those elements to the 'Home' and 'Projects' pages. I have never taken any classes on frontend technologies so this was a great learning experience for me. It is still a work in progress and I will constantly be learning new things and using them to improve this site.",
+      "descriptiontools": "Tools: HTML, CSS, Javascript, React JS, Bootstrap",
+      "tools": ["html", "css", "javascript", "reactjs", "bootstrap"],
+      "github": "https://github.com/jhalvorson6687",
+      "imgURL": "/homepage.png",
+      "section": "section-4"
+    },
+    {
+      "title": "R'Mailbox",
+      "date": "Mar 2020 - June 2020",
+      "descriptionbrief": "IoT mailbox designed to prevent mail theft. Equipped with security features and SMS notifications, you can be assured your packages will remain safe.",
+      "descriptionmain1": "For our embedded-systems senior design project, our team wanted to design a system to tackle a real-world problem. Mail theft has been prevalent around the country, with countless videos of passerbys snagging packages from peoples' homes. The R'Mailbox provides a secure method for package delivery while homeowners are away.",
+      "descriptionmain2": "The R'Mailbox is powered by a dual microcontroller setup. A Raspberry Pi and ATMega1284 communicate via SPI to provide reliable security and real-time notifications. A combination of a load cell and IR sensors is used to detect when packages are placed inside the box, which is then locked the moment the door is shut, and the user is notified via SMS. We implemented two biometric authentication options: facial recognition and fingerprint scanning. There is also a request to open button which sends a text to the user requesting access, to which he/she can unlock the door remotely. This can be used by mail services or other people you authorize. Lastly, we added AWS integration so the user can ask Alexa for updates about their mail, like if they have a package waiting or if outgoing mail as been picked up yet.",
+      "descriptiontools": "Tools: C++, Python, Flask, Amazon AWS, ATMega1284, Raspberry Pi, Travis CI, Embedded-Systems",
+      "tools": ["c++", "python", "flask", "aws", "atmega", "raspberrypi", "travis"],
+      "github": "https://github.com/jhalvorson6687/R-Mailbox",
+      "imgURL": "/rmailbox-img.png",
+      "section": "section-2"
+    },
+    {
+      "title": "Movie Analytics",
+      "date": "Mar 2020 - June 2020",
+      "descriptionbrief": "Web application that provides analytical insights into the film industry. Find out all you need to know about your favorite movies and actors!",
+      "descriptionmain1": "I was a part of a 4 person team in my software engineering class, tasked to create an analytics web application over the 10 week quarter. We decided to build an application that provides insight to the movie industry. The data was taken from a CSV file from Kaggle.",
+      "descriptionmain2": "The website was built using Python and Flask for the backend and jQuery and Bootstrap for the frontend. I was one of the two members on the backend team, and developed many of the analytics features, search features, dataset operations, and optimizations. I also implemented caching to reduce runtime of previous requests, which reduced the request time by thousands of times.",
+      "descriptiontools": "Tools: Python, Flask, HTML, CSS, Javascript, jQuery, Bootstrap",
+      "tools": ["python", "flask", "html", "css", "javascript", "jquery", "bootstrap"],
+      "github": "https://github.com/jhalvorson6687/CS180-khsp",
+      "imgURL": "/movie_analytics.png",
+      "section": "section-5"
+    },
+    {
+      "title": "2048",
+      "date": "Sep 2019 - Dec 2019",
+      "descriptionbrief": "The classic mobile game '2048' but with some added wiring. This embedded systems version of 2048 is controlled with a joystick and Nokia LCD.",
+      "descriptionmain1": "One of my first embedded systems projects was a recreation of the hit mobile game 2048. This was implemented with an ATMega1284 microcontroller, Nokia 5110 LCD, analog joystick, and a secondary 2x16 LCD. There is a full report detailing the design and link to a demo video located on my github.",
+      "descriptionmain2": "I designed this project using concurrent synchronous state machines. The project was broken down into 4 distinct tasks: reading joystick input, managing grid positions, outputting to Nokia LCD, and outputting score to the 2x16 LCD. These tasks communicated via shared variables and ticked independently of each other. This design approach resulted in clean, readable, and maintainable embedded c code.",
+      "descriptiontools": "Tools: C, ATMega1284, Nokia, Embedded Systems",
+      "tools": ["c", "atmega"],
+      "github": "https://github.com/jhalvorson6687/2048",
+      "imgURL": "/2048.png",
+      "section": "section-3"
+    }
+  ]
+}
