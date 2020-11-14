@@ -8,7 +8,7 @@
       "descriptionmain2": "I constructed this website using React.js and Bootstrap. It was deployed through Github Pages. One cool thing I learned how to do was have my website dynamically render project elements based on data in a JSON file. Now if I finish any new projects I can simply add it to the JSON file and the website will automatically add those elements to the 'Home' and 'Projects' pages. I have never taken any classes on frontend technologies so this was a great learning experience for me. It is still a work in progress and I will constantly be learning new things and using them to improve this site.",
       "descriptiontools": "Tools: HTML, CSS, Javascript, React JS, Bootstrap",
       "tools": ["html", "css", "javascript", "reactjs", "bootstrap"],
-      "github": "https://github.com/jhalvorson6687",
+      "github": "https://github.com/jhalvorson6687/homepage/tree/master",
       "imgURL": "/homepage.png",
       "section": "section-4"
     },
