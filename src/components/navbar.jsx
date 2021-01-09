@@ -57,7 +57,7 @@ class NavBar extends Component {
                 <li>
                   <a
                     class="nav-link navbar-link"
-                    href="https://drive.google.com/file/d/1HGxXQT7NNjmbR8hQ9MievbT4kOQw0h1s/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1J_aI8tzBM9t-1z2TaLLQmNI11pkYjnXM/view?usp=sharing"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
