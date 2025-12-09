@@ -13,7 +13,12 @@ function StackRow({ category, technologies }: StackRowProps) {
       <h3 className="stack-category">{category}</h3>
       <div className="stack-pills">
         {technologies.map((tech) => (
-          <StackPill key={tech.name} name={tech.name} icon={tech.icon} />
+          <StackPill
+            key={tech.name}
+            name={tech.name}
+            icon={tech.icon}
+            url={tech.url}
+          />
         ))}
       </div>
     </div>
