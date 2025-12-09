@@ -1,0 +1,89 @@
+.animated-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-primary);
+  background: transparent;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.animated-button::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, #5e6ad2 0%, #4a56b8 100%);
+  border-radius: 8px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: -1;
+}
+
+.animated-button:hover {
+  color: #ffffff;
+}
+
+.animated-button:hover::before {
+  opacity: 1;
+}
+
+.animated-button span {
+  display: inline-block;
+  position: relative;
+}
+
+.animated-button:hover span {
+  animation: slideUpDown 0.5s ease;
+}
+
+.animated-button svg {
+  width: 20px;
+  height: 20px;
+  overflow: visible;
+}
+
+.animated-button svg line,
+.animated-button svg polyline {
+  stroke-dasharray: 24;
+  stroke-dashoffset: 0;
+}
+
+.animated-button:hover svg line,
+.animated-button:hover svg polyline {
+  animation: drawArrow 0.75s ease;
+}
+
+@keyframes drawArrow {
+  0% {
+    stroke-dashoffset: 24;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes slideUpDown {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  51% {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

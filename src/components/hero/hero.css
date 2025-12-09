@@ -1,0 +1,46 @@
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 4rem 2rem 4rem;
+  max-width: 800px;
+  margin: 0 auto;
+  /* min-height: calc(100vh - 56px); */
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.profile-image {
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid rgba(94, 106, 210, 0.3);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.intro-text {
+  font-size: 16px;
+  line-height: 1.75;
+  color: var(--text-secondary);
+  max-width: 500px;
+  margin: 0;
+  /* transition: color 0.3s ease; */
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 3rem 1.5rem;
+  }
+
+  .profile-image {
+    width: 150px;
+    height: 150px;
+  }
+
+  .intro-text {
+    font-size: 1.1rem;
+  }
+}
