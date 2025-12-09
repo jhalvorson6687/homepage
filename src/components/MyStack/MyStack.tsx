@@ -19,6 +19,7 @@ import {
   SiPostman,
   SiSqlite,
   SiTailwindcss,
+  SiCplusplus,
 } from "react-icons/si";
 import { RiNextjsFill } from "react-icons/ri";
 import { DiMsqlServer } from "react-icons/di";
@@ -57,6 +58,7 @@ const technologies: Technology[] = [
   { name: "AWS", category: "DevOps & Tools", icon: <SiAmazon /> },
   { name: "Azure", category: "DevOps & Tools", icon: <VscAzureDevops /> },
   { name: "Postman", category: "DevOps & Tools", icon: <SiPostman /> },
+  { name: "C++", category: "Backend", icon: <SiCplusplus /> },
 ];
 
 function MyStack() {

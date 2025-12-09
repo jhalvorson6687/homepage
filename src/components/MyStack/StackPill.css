@@ -90,6 +90,9 @@
 .stack-pill[data-tech="postman"] .pill-icon {
   color: #ff6c37;
 }
+.stack-pill[data-tech="c++"] .pill-icon {
+  color: #00599c;
+}
 
 @media (max-width: 768px) {
   .stack-pill {
