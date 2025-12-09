@@ -18,6 +18,7 @@ nav {
   max-width: 1400px;
   margin: 0 auto;
   position: relative;
+  gap: 20px;
 }
 
 .nav-content {
@@ -27,6 +28,11 @@ nav {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+  pointer-events: none;
+}
+
+.nav-content ul {
+  pointer-events: auto;
 }
 
 ul {
@@ -89,14 +95,14 @@ li {
   background: none;
   border: none;
   cursor: pointer;
-  color: #eeeeee;
+  color: var(--nav-text);
   padding: 8px;
   align-items: center;
   justify-content: center;
 }
 
 /* Mobile Styles */
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   nav {
     padding: 0 20px;
   }
