@@ -65,7 +65,7 @@ li {
   align-items: center;
   justify-content: center;
   transition: transform 0.3s ease, color 0.3s ease;
-  padding: 8px;
+  padding: 0;
   margin-left: auto;
   color: var(--nav-text);
 }
