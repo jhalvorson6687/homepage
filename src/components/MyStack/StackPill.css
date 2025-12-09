@@ -1,0 +1,34 @@
+.stack-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-primary);
+  background: var(--bg-secondary);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.stack-pill:hover {
+  border-color: rgba(94, 106, 210, 0.5);
+  box-shadow: 0 4px 16px rgba(94, 106, 210, 0.2);
+}
+
+.pill-icon {
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .stack-pill {
+    font-size: 12px;
+    padding: 0.45rem 0.875rem;
+  }
+}

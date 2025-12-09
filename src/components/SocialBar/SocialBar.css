@@ -11,7 +11,7 @@
   justify-content: center;
   width: 40px;
   height: 40px;
-  transition: all 0.3s ease;
+  transition: transform 0.3s ease, color 0.3s ease-in-out;
   color: var(--nav-text);
 }
 

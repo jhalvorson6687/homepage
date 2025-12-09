@@ -34,7 +34,7 @@
   --text-primary: rgba(0, 0, 0, 0.87);
   --text-secondary: rgba(0, 0, 0, 0.75);
   --nav-text: #6b7280;
-  --border-color: #e5e7eb;
+  --border-color: #d1d5db;
   --gradient-opacity: 0.5;
 }
 
@@ -68,4 +68,9 @@ body {
     white 0%,
     transparent 100%
   );
+}
+
+*:focus-visible {
+  outline: 2px solid #5e6ad2;
+  outline-offset: 2px;
 }

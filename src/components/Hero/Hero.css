@@ -29,18 +29,3 @@
   margin: 0;
   /* transition: color 0.3s ease; */
 }
-
-@media (max-width: 768px) {
-  .hero-section {
-    padding: 3rem 1.5rem;
-  }
-
-  .profile-image {
-    width: 150px;
-    height: 150px;
-  }
-
-  .intro-text {
-    font-size: 1.1rem;
-  }
-}

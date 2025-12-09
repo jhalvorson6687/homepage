@@ -1,0 +1,15 @@
+.my-stack {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+@media (max-width: 768px) {
+  .my-stack {
+    padding: 0 1.5rem 2rem;
+    gap: 1.5rem;
+  }
+}
