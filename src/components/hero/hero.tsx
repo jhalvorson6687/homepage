@@ -1,6 +1,6 @@
 import "./hero.css";
-import SocialBar from "../socialbar/socialbar";
-import AnimatedButton from "../animatedbutton/animatedbutton";
+import SocialBar from "../SocialBar/SocialBar";
+import AnimatedButton from "../AnimatedButton/AnimatedButton";
 import jacobImage from "../../assets/jacob.png";
 
 function Hero() {
