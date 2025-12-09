@@ -26,6 +26,71 @@
   align-items: center;
 }
 
+/* Brand colors for technology icons */
+.stack-pill[data-tech="angular"] .pill-icon {
+  color: #dd0031;
+}
+.stack-pill[data-tech="react"] .pill-icon {
+  color: #61dafb;
+}
+.stack-pill[data-tech="nextjs"] .pill-icon {
+  color: var(--text-primary);
+}
+.stack-pill[data-tech="typescript"] .pill-icon {
+  color: #3178c6;
+}
+.stack-pill[data-tech="javascript"] .pill-icon {
+  color: #f7df1e;
+}
+.stack-pill[data-tech="tailwind-css"] .pill-icon {
+  color: #06b6d4;
+}
+.stack-pill[data-tech="html"] .pill-icon {
+  color: #e34f26;
+}
+.stack-pill[data-tech="css"] .pill-icon {
+  color: #1572b6;
+}
+.stack-pill[data-tech="python"] .pill-icon {
+  color: #3776ab;
+}
+.stack-pill[data-tech="django"] .pill-icon {
+  color: #092e20;
+}
+.stack-pill[data-tech="flask"] .pill-icon {
+  color: var(--text-primary);
+}
+.stack-pill[data-tech="postgresql"] .pill-icon {
+  color: #4169e1;
+}
+.stack-pill[data-tech="oracle"] .pill-icon {
+  color: #f80000;
+}
+.stack-pill[data-tech="sql-server"] .pill-icon {
+  color: #cc2927;
+}
+.stack-pill[data-tech="sqlite"] .pill-icon {
+  color: #003b57;
+}
+.stack-pill[data-tech="git"] .pill-icon {
+  color: #f05032;
+}
+.stack-pill[data-tech="docker"] .pill-icon {
+  color: #2496ed;
+}
+.stack-pill[data-tech="vite"] .pill-icon {
+  color: #646cff;
+}
+.stack-pill[data-tech="aws"] .pill-icon {
+  color: #ff9900;
+}
+.stack-pill[data-tech="azure"] .pill-icon {
+  color: #0078d4;
+}
+.stack-pill[data-tech="postman"] .pill-icon {
+  color: #ff6c37;
+}
+
 @media (max-width: 768px) {
   .stack-pill {
     font-size: 12px;

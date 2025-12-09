@@ -2,6 +2,7 @@ import "./navbar.css";
 import { Link } from "react-router";
 import { useState } from "react";
 import { useTheme } from "../../hooks/useTheme";
+import { LogoIcon } from "../CustomIcons/CustomIcons";
 
 function Navbar() {
   const { theme, toggleTheme } = useTheme();
@@ -15,7 +16,7 @@ function Navbar() {
     <header>
       <nav>
         <Link className="logo" to="/">
-          Jacob Halvorson
+          <LogoIcon />
         </Link>
 
         <button

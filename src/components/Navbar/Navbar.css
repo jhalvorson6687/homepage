@@ -13,11 +13,11 @@ nav {
   height: 56px;
   padding: 0 40px;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
-  max-width: 1400px;
+  max-width: 1024px;
   margin: 0 auto;
-  position: relative;
+  /* position: relative; */
   gap: 20px;
 }
 
@@ -55,6 +55,8 @@ li {
   text-decoration: none;
   font-size: 24px;
   font-weight: bold;
+  display: flex;
+  align-items: center;
 }
 
 .theme-toggle {
@@ -102,7 +104,7 @@ li {
 }
 
 /* Mobile Styles */
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   nav {
     padding: 0 20px;
   }

@@ -23,7 +23,7 @@ import {
 import { RiNextjsFill } from "react-icons/ri";
 import { DiMsqlServer } from "react-icons/di";
 import { VscAzureDevops } from "react-icons/vsc";
-// import { CSharpIcon, DotNetIcon } from "../CustomIcons/CustomIcons";
+import { CSharpIcon, DotNetIcon } from "../CustomIcons/CustomIcons";
 
 import type { ReactNode } from "react";
 
@@ -42,8 +42,8 @@ const technologies: Technology[] = [
   { name: "Tailwind CSS", category: "Frontend", icon: <SiTailwindcss /> },
   { name: "HTML", category: "Frontend", icon: <SiHtml5 /> },
   { name: "CSS", category: "Frontend", icon: <SiCss3 /> },
-  { name: "C#", category: "Backend" },
-  { name: ".NET", category: "Backend" },
+  { name: "C#", category: "Backend", icon: <CSharpIcon /> },
+  { name: ".NET", category: "Backend", icon: <DotNetIcon /> },
   { name: "Python", category: "Backend", icon: <SiPython /> },
   { name: "Django", category: "Backend", icon: <SiDjango /> },
   { name: "Flask", category: "Backend", icon: <SiFlask /> },

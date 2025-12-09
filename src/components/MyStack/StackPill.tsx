@@ -7,8 +7,9 @@ interface StackPillProps {
 }
 
 function StackPill({ name, icon }: StackPillProps) {
+  const techSlug = name.toLowerCase().replace(/\s+/g, "-").replace(/\./g, "");
   return (
-    <span className="stack-pill">
+    <span className="stack-pill" data-tech={techSlug}>
       {icon && <span className="pill-icon">{icon}</span>}
       {name}
     </span>
