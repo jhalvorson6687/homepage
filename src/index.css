@@ -23,7 +23,7 @@
   --text-secondary: rgba(255, 255, 255, 0.9);
   --nav-text: #9ca3af;
   --border-color: #2a2a2a;
-  --gradient-opacity: 0.4;
+  --gradient-opacity: 0.3;
 }
 
 /* Light mode */
@@ -35,7 +35,7 @@
   --text-secondary: rgba(0, 0, 0, 0.75);
   --nav-text: #6b7280;
   --border-color: #e5e7eb;
-  --gradient-opacity: 0.3;
+  --gradient-opacity: 0.5;
 }
 
 body {
@@ -46,7 +46,6 @@ body {
   overflow-x: hidden;
   background-color: var(--bg-primary);
   color: var(--text-primary);
-  /* transition: background-color 0.3s ease, color 0.3s ease; */
 }
 
 .background-gradient {
@@ -55,10 +54,10 @@ body {
   inset: 0;
   background: linear-gradient(
     to right,
-    hsl(var(--color-primary-600)),
-    hsl(var(--color-primary-300))
+    hsl(var(--color-primary-600) / var(--gradient-opacity)),
+    hsl(var(--color-primary-300) / var(--gradient-opacity))
   );
-  opacity: var(--gradient-opacity);
+  opacity: 1;
   mask-image: radial-gradient(
     ellipse 650px 400px at top center,
     white 0%,
@@ -69,15 +68,4 @@ body {
     white 0%,
     transparent 100%
   );
-}
-
-@media (prefers-color-scheme: dark) {
-  .background-gradient {
-    background: linear-gradient(
-      to right,
-      hsl(var(--color-primary-600) / 0.3),
-      hsl(var(--color-primary-300) / 0.3)
-    );
-    opacity: 1;
-  }
 }
