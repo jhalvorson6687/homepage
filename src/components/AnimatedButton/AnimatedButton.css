@@ -19,7 +19,6 @@
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg, #5e6ad2 0%, #4a56b8 100%);
   border-radius: 8px;
   opacity: 0;
   transition: opacity 0.3s ease;
@@ -28,6 +27,7 @@
 
 .animated-button:hover {
   color: #ffffff;
+  background: linear-gradient(135deg, #5e6ad2 0%, #4a56b8 100%);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
   /* box-shadow: 0 0 8px #5e6ad2, 0 0 10px #4a56b8; */ /* glow effect */
 }
