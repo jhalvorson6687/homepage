@@ -46,7 +46,7 @@ const technologies: Technology[] = [
     name: "React",
     category: "Frontend",
     icon: <SiReact />,
-    url: "https://reactjs.dev/",
+    url: "https://react.dev/",
   },
   {
     name: "Next.js",
