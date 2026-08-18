@@ -33,8 +33,8 @@ export function CSharpIcon() {
           y2="65.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#927BE5" />
-          <stop offset="1" stop-color="#512BD4" />
+          <stop stopColor="#927BE5" />
+          <stop offset="1" stopColor="#512BD4" />
         </linearGradient>
       </defs>
     </svg>
